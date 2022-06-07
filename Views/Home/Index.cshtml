@@ -2,7 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+@* <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    </div> *@
+
+<body style="background-image: url(../img/background.png);">
+    <div class="container p-5">
+        <div class="d-flex flex-column align-items-center g-4">
+            <img class="mb-5" src="../img/Fab_Lab_logo.png" width="200" alt="">
+            <a href="/Home/Pasante" class="btn btn-success mt-3">Registrar Nuevo Pasante</a>
+            <a href="/Home/Pasantes" class="btn btn-success mt-3">Listado de Pasantes</a>
+            <a href="/Home/Inventario" class="btn btn-success mt-3">Inventario</a>
+            <a href="/Home/Proyectos" class="btn btn-success mt-3">Estado de Proyectos</a>
+        </div>
+    </div>
+</body>

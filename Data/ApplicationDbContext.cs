@@ -9,7 +9,8 @@ namespace Fablab.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public DbSet<Pasante> Pasante {get; set;}
+        public DbSet<Pasante> Pasantes {get; set;}
+        public DbSet<Inventario> Inventarios {get; set;}
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }

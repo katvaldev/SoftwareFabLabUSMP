@@ -26,6 +26,14 @@ namespace SoftwareFabLabUSMP.Controllers
         {
             return View();
         }
+        public IActionResult Inventario()
+        {
+            return View();
+        }
+        public IActionResult RegistroInventario()
+        {
+            return View();
+        }
 
         // [HttpPost]
         // public IActionResult Pasante(string nombre)
@@ -35,10 +43,10 @@ namespace SoftwareFabLabUSMP.Controllers
         //     }
         // }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        // public IActionResult Privacy()
+        // {
+        //     return View();
+        // }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
